@@ -4,4 +4,4 @@
 ~~蒟蒻发威~~
 
 
-访问 [地址](https://lm16.github.io/store)
+[静态页面访问地址](https://lm16.github.io/store)
