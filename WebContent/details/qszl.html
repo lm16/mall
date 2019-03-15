@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>《求生之路》主页面</title>
+		<link rel="stylesheet" href="../css/bootstrap.min.css" />
+		<script type="text/javascript" src="../js/jquery.min.js" ></script>
+		<script type="text/javascript" src="../js/bootstrap.min.js" ></script>
+		<style>
+			/*<link rel="stylesheet" href="css/index.css">*/
+			#big{
+				/*border: 1px solid red;*/
+				width: 1300px;
+				height: 850px;
+				margin: auto;
+			}
+			#tip{
+				/*border: 1px solid black;*/
+				width: 1298px;
+				height: 27px;
+				background-color: gainsboro;
+			}
+			.second{
+				/*border: 1px solid blue;*/
+				width: 647px;
+				height: 410px;
+				float: left;
+			}
+			.d{
+				/*border: 1px solid yellow;*/
+				width: 1298px;
+				height: 408px;
+				float: left;
+			}
+			.text{
+				/*border: 1px solid red;*/
+				width: 1298px;
+				height: 30px;
+			}
+			.desc{
+				/*border: 1px solid brown;*/
+				width: 1298px;
+				height: 165px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+		<div id="big">
+			<div id="tip">
+				<a href="../shop.jsp" >首页</a>
+			</div>
+			<div class="d">
+			
+				<div class="second">		
+					<div id="myCarousel" class="carousel slide">  
+						<!-- 轮播（Carousel）项目 -->
+						<div class="carousel-inner">
+							<div class="item active">
+								<img src="../img/game/qszl1.jpg" style="height: 407px; width: 100%;" alt="First slide">
+							</div>
+						<div class="item">
+							<img src="../img/game/qszl2.jpg" style="height: 407px; width: 100%;" alt="Second slide">
+						</div>
+						<div class="item">
+							<img src="../img/game/qszl3.jpg" style="height: 407px; width: 100%;" alt="Third slide">
+						</div>
+						</div>
+						<!-- 轮播（Carousel）导航 -->
+						<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+	    					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	    					<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+	    					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	    					<span class="sr-only">Next</span>
+						</a>
+					</div>
+				</div>
+
+				<div class="second">
+					<div>
+						<div style="height: 25px; background-color: ghostwhite;color: red; text-align: center;">
+							商品名称: 《求生之路》      
+						</div>
+						<div style="height: 100px; background-color: gainsboro;">
+							<div style="color: red;">&nbsp;&nbsp;价&nbsp;&nbsp;格:￥188.00</div>
+							&nbsp;&nbsp;商品类型：游戏<br />
+							&nbsp;&nbsp;运费:包邮<br />
+							&nbsp;&nbsp;库存：有货
+						</div>
+						<div class="more-con">
+                                <ol>
+                                    <li>1.此商品不支持7天无理由退货</li>
+                                   	<li>2.此商品由 海囤全球 发货并提供售后服务</li>
+                                   	<li>3.此商品不提供国内购物发票</li>
+                                    <li>4.此商品支持白条30天免息或分期支付，不可使用京豆、京东卡、京东E卡、余额支付，不支持货到付款</li>
+                                    <li>5.根据中国海关总署要求，您所购买的商品清关入境需要提供身份证信息进行入境申报，请您配合。我们不会向第三方泄露您的资料，请您放心</li>
+                                </ol>
+                        </div>
+                        <div>
+                        	<a href="buyOrderServlet?goodsID=3007">立即购买</a>
+                        	<a href="addOrderServlet?goodsID=3007">加入购物车</a>
+                        </div>
+					</div>
+				</div>
+			</div>
+			<div class="d">
+				<div class="text">
+					<div style="text-align: center;background-color: lightsalmon;height: 28px;">详&nbsp;&nbsp;情</div>
+				</div>
+				<div class="desc">
+					<textarea name="ne" cols="200" rows="8" style=" width: 1297px; height: 159px;" readonly="readonly">
+	《求生之路》是Turtle Rock开发，Valve发行的一款第一人称射击游戏，于2008年11月18日发行。《求生之路》是一款剧情设定在现代城市的恐怖生存游戏，当中的四名“幸存者”将必须同心协力，才能抵抗僵尸大军和
+恐怖的BOSS级变种人，并从中杀出一条血路。
+背景设定:
+20XX年，在美国佐治亚州的沙瓦那爆发了一场大型的流行性瘟疫，这种瘟疫是由变种的狂犬病毒引起，一经爆发便迅速的蔓延，人类在感染了这种病毒后变异为丧尸并通过攻击他人来蔓延传播，很快瘟疫便感染了大部分
+地区。这时政府迅速组织了防疫组织——CEDA来前往感染区进行救助，企图治疗好这些感染者，但CEDA的想法过于天真，防疫措施和手段都和一般流感无二，他们单纯的认为病毒是由空气传播的。由于CEDA效率颇低，人
+们起初对CEDA的期盼化为了愤怒。最终，瘟疫大规模的蔓延，甚至将CEDA穿着所谓防化服的特工也被感染，最终CEDA撤出了城市，转而由军队来处理，军队甚至计划用核弹摧毁城市防止瘟疫蔓延。但城市里还有很多幸存
+者，他们自己用枪支来保卫自己不被感染，而玩家便是在这幸存者大军中一个四人组中的一员。
+					</textarea>
+				</div>
+				<div class="text">
+					<div style="text-align: center;background-color: lightsalmon;height: 28px;">评&nbsp;&nbsp;价</div>
+				</div>
+				<div class="desc" style="background-color: gainsboro;">
+					<br /><br />
+					<div style="color: greenyellow; background-color: ghostwhite; font-size: -webkit-xxx-large;text-align: center;margin: auto;">暂无评价</div>
+				</div>
+			</div>
+		</div >
+	</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册 - 云瑞欣</title>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+	</head>
+	<body>
+		<!--中间表单注册区-->
+		<form action="php/register.php" method="post" id="myform">
+			<div id="bd">
+				<div class="shadow_box">
+					<div class="register_box">
+						<!--注册内容-->
+						<div class="register_body">
+							<!--表单注册区-->
+							<table border="0" cellspacing="0" cellpadding="0" width="100%">
+								<tbody>
+									<tr>
+										<td>用户名:</td>
+										<td class='tt'>
+											<input type="text" id='username' name='customerName' class='isV' />
+											<span class="span1">用户名</span>
+											<span id="error1">请勿为空</span>
+											<i></i>
+										</td>
+									</tr>
+									<tr>
+										<td>邮箱:</td>
+										<td class='tt'>
+											<input type="email" id='email' name='customerEmail' class='isV'/>
+											<span class="span1">电子邮箱</span>
+											<span id="error2">不符合格式</span>
+											<i></i>
+										</td>
+									</tr>
+									<tr>
+										<td>手机号码</td>
+										<td class='tt'>
+											<input type="text" id='tel' name='customerPhone' class='isV'/>
+											<span class="span1">手机号码</span>
+											<span id="error3">不符合格式</span>
+											<i></i>
+										</td>
+									</tr>
+									<tr>
+										<td>登录密码</td>
+										<td class='tt'>
+											<input type="password" id='password' name='customerPass' class='isV' />
+											<span class="span1">请输入密码</span>
+											<span id="error4">请勿为空</span>
+											<i></i>
+										</td>
+									</tr>
+									<tr>
+										<td>确认密码</td>
+										<td class='tt'>
+											<input type="password" id='ispwd' class='isV'/>
+											<span class="span1">请再次输入密码</span>
+											<span id="error5">两次密码不一 致</span>
+											<i></i>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							<button type="button" id='mysubmit'>注册</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+		
+		<script src="js/jquery.min.js" ></script>
+		<script src="js/register.js"></script>
+	</body>
+</html>

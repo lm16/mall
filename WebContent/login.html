@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+
+		<title>登录 - 云瑞欣</title>
+
+		<link rel="stylesheet" type="text/css" href="css/login2.css"/>
+	</head>
+	<body>
+		
+		<header class="head">
+			<a href="index.html">
+				<img src="img/log.jpg" alt="云瑞欣迷你商铺" />
+			</a>
+		</header>
+
+		<div class="login_bd">
+			<!-- <img src="img/login/bg.jpg" class='login_bdimg'/> -->
+			<div class="set_area">
+				<div class="wrap clear">
+					<div class="loginDiv">
+
+						<!--账号密码登录-->
+						<div class="infro" id='pwd_login'>
+							
+							<div class="username" id='usernamelogin'>
+								<span></span>
+								<input type="text" class="user" id="name" maxlength="40" autocomplete="off" value="邮箱/昵称/手机号码">
+							</div>
+							<p class="tips">
+								<span id='liDivErrorMessage'>请输入邮箱/昵称/手机号码</span>
+							</p>
+							<div class="password">
+								<span></span>
+								<input type="password" class='pass' id="password" maxlength="20" autocomplete="off"/>
+							</div>
+							<p class="tips">
+								<span id='login_password_error' style="display: none;">请填写长度为6-20个字符的密码</span>
+								<span class="big_tip" style="display: none;">键盘大写锁定已打开，请注意大小写!</span>
+							</p>
+							<p class='btn'>
+								<a id='loginBtn'>登 录</a>
+							</p>
+							<p class='register'>
+								<a href="register.html" class="register_btn">立即注册</a>
+							</p>
+						</div>
+
+					</div>			
+				</div>
+			</div>
+		</div>	
+		
+		<script src="js/jquery.min.js" ></script>
+		<script src="js/login.js"></script>
+		<script src="js/mydom.js"></script>
+	</body>
+</html>

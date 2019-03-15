@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>《刺客信条：奥德赛》主页面</title>
+		<style>
+			/*<link rel="stylesheet" href="css/index.css">*/
+			#big{
+				/*border: 1px solid red;*/
+				width: 1300px;
+				height: 850px;
+				margin: auto;
+			}
+			#tip{
+				/*border: 1px solid black;*/
+				width: 1298px;
+				height: 27px;
+				background-color: gainsboro;
+			}
+			.second{
+				/*border: 1px solid blue;*/
+				width: 647px;
+				height: 410px;
+				float: left;
+			}
+			.d{
+				/*border: 1px solid yellow;*/
+				width: 1298px;
+				height: 396px;
+				float: left;
+			}
+			.text{
+				/*border: 1px solid red;*/
+				width: 1298px;
+				height: 30px;
+			}
+			.desc{
+				/*border: 1px solid brown;*/
+				width: 1298px;
+				height: 165px;
+			}
+		</style>
+		<script type="text/javascript" src="../js/jquery-1.8.3.js" ></script>
+		<script>
+			$(function(){
+				var i=1;
+				$("#last").click(function(){
+					i--;
+					if(i==0){
+						i=3;
+					}
+					$("#pt").get(0).src="../img/game/ckxt"+i+".jpg";
+				});
+				$("#next").click(function(){
+					i++;
+					if(i==4){
+						i=1;
+					}
+					$("#pt").get(0).src="../img/game/ckxt"+i+".jpg";
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="container">
+		<div id="big">
+			<div id="tip">
+				<a href="../shop.jsp" >首页</a>
+			</div>
+			<div class="d">
+				<div class="second">
+					<div>
+						<img src="../img/game/ckxt1.jpg" width="647px" height="366px" id="pt"/>
+						<input type="submit" value="上 一 张" onclick="changImgl()" id="last"/>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="submit" value="下 一 张" onclick="changImgn()" id="next"/>
+					</div>
+				</div>
+				<div class="second">
+					<div>
+						<div style="height: 25px; background-color: ghostwhite;color: red; text-align: center;">
+							商品名称: 《刺客信条：奥德赛》      
+						</div>
+						<div style="height: 100px; background-color: gainsboro;">
+							<div style="color: red;">价&nbsp;&nbsp;格:￥188.00</div>
+							运费:包邮
+						</div>
+						<div class="more-con">
+                                <ol>
+                                    <li>1.此商品不支持7天无理由退货</li>
+                                   	<li>2.此商品由 海囤全球 发货并提供售后服务</li>
+                                   	<li>3.此商品不提供国内购物发票</li>
+                                    <li>4.此商品支持白条30天免息或分期支付，不可使用京豆、京东卡、京东E卡、余额支付，不支持货到付款</li>
+                                    <li>5.根据中国海关总署要求，您所购买的商品清关入境需要提供身份证信息进行入境申报，请您配合。我们不会向第三方泄露您的资料，请您放心</li>
+                                </ol>
+                        </div>
+                        <div>
+                        	<a href="../buyOrderServlet?goodsID=3004">立即购买</a>
+                        	<a href="../addOrderServlet?goodsID=3004">加入购物车</a>
+                        </div>
+					</div>
+				</div>
+			</div>
+			<div class="d">
+				<div class="text">
+					<div style="text-align: center;background-color: lightsalmon;height: 28px;">详&nbsp;&nbsp;情</div>
+				</div>
+				<div class="desc">
+					<textarea name="ne" cols="200" rows="8" style="widows: 1297px; height: 159px;" readonly="readonly">
+	《刺客信条：奥德赛》（Assassin's Creed Odyssey）是一款由育碧魁北克工作室开发，育碧发行的动作游戏，是《刺客信条》的第十一部主系列作品，也是2017年游戏《刺客信条：起源》的续作。游戏设定于
+距《刺客信条：起源》故事发生前四百年的公元前431年，讲述了古希腊城邦之间的伯罗奔尼撒战争的秘密虚构历史。玩家扮演一名雇佣兵，可加入以雅典为首的提洛同盟或以斯巴达为首的伯罗奔尼撒同盟。该作于2018年
+10月5日正式发行，登陆PC、PS4、Xbox One、任天堂Switch等平台，其中任天堂Switch版本将采用云游戏的方式运行.
+游戏背景设定编辑
+《刺客信条：奥德赛》的故事发生在古希腊，一个充满神秘色彩和传奇的世界，在公元前5世纪斯巴达和雅典之间著名的伯罗奔尼撒战争时期。玩家将选择扮演“阿利克西欧斯”或“卡珊德拉”，一个被家族判处死刑，拥
+有斯巴达血统的雇佣兵，开启一段从一位年轻的被遗弃之人到传奇英雄的史诗旅程，并逐步揭开其神秘血统背后的真相。
+					</textarea>
+				</div>
+				<div class="text">
+					<div style="text-align: center;background-color: lightsalmon;height: 28px;">评&nbsp;&nbsp;价</div>
+				</div>
+				<div class="desc" style="background-color: gainsboro;">
+					<br /><br />
+					<div style="color: greenyellow; background-color: ghostwhite; font-size: -webkit-xxx-large;text-align: center;margin: auto;">暂无评价</div>
+				</div>
+			</div>
+		</div >
+	</body>
+</html>

@@ -1,0 +1,62 @@
+li {
+	list-style: none;
+}
+
+.findex-top {
+	height: 50px;
+}
+
+.findex-bottom {
+	height: 250px;
+}
+
+.img-size1 {
+	height: 250px;
+	float: right;
+}
+
+.img-size2 {
+	float: right;
+	height: 250px;
+	width: 358px;
+}
+.img-size3 {
+	float: right;
+	height: 250px;
+	width: 250px;
+}
+
+.title-font {
+	font-size: 20px;
+	color: #fff;
+	font-family: "宋体";
+}
+
+.font-center {
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.food-item {
+	float: left;
+	width: 63px;
+	height: 250px;
+}
+
+.food-font {
+	padding-left: 0px;
+	font-size: 14px;\
+}
+
+.food-font li {
+	color: #424242;
+}
+
+.food-item li:hover {
+	background-color: #fff;
+}
+
+.food-item a {
+	color: #424242;
+}
