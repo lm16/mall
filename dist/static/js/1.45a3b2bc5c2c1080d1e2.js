@@ -1,0 +1,2 @@
+webpackJsonp([1],{"38wk":function(e,r,n){"use strict";Object.defineProperty(r,"__esModule",{value:!0});var t={render:function(){var e=this,r=e.$createElement,n=e._self._c||r;return n("el-carousel",{attrs:{interval:5e3,arrow:"always"}},e._l(4,function(r){return n("el-carousel-item",{key:r},[n("h3",[e._v(e._s(r))])])}),1)},staticRenderFns:[]};var l=n("VU/8")(null,t,!1,function(e){n("r0IB")},null,null);r.default=l.exports},r0IB:function(e,r){}});
+//# sourceMappingURL=1.45a3b2bc5c2c1080d1e2.js.map

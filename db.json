@@ -1,0 +1,434 @@
+{
+  "goods": [
+    {
+      "gid": 1,
+      "name": "俏香阁 坚果炒货 休闲零食 果仁 烘焙紫皮腰果158g/袋",
+      "descript": "这是腰果",
+      "price": 42.80,
+      "stock": 100,
+      "sold": 22,
+      "gtid": 1,
+      "bid": 1,
+      "img": {
+        "iid": 1,
+        "main": "img/snacks/1001.png",
+        "img1": "img/snacks/1001_1.png",
+        "img2": "img/snacks/1001_2.png",
+        "img3": "img/snacks/1001_3.png"
+      }
+    },
+    {
+      "gid": 2,
+      "name": " 三只松鼠坚果炒货零食特产每日坚果开心果100g/袋",
+      "descript": "这是开心果",
+      "price": 39.90,
+      "stock": 100,
+      "sold": 22,
+      "gtid": 1,
+      "bid": 1,
+      "img": {
+        "iid": 2,
+        "main": "img/snacks/1002.png",
+        "img1": "img/snacks/1002_1.png",
+        "img2": "img/snacks/1002_2.png",
+        "img3": "img/snacks/1002_3.png"
+      }
+    },
+    {
+      "gid": 3,
+      "name": "良品铺子酥脆薄饼薄脆海苔咸饼干 盒装咸味零食小吃早餐休闲食品300g",
+      "descript": "这是饼干",
+      "price": 14.90,
+      "stock": 100,
+      "sold": 22,
+      "gtid": 1,
+      "bid": 1,
+      "img": {
+        "iid": 3,
+        "main": "img/snacks/1003.png",
+        "img1": "img/snacks/1003_1.png",
+        "img2": "img/snacks/1003_2.png",
+        "img3": "img/snacks/1003_3.png"
+      }
+    },
+    {
+      "gid": 4,
+      "name": "俏香阁 蜜饯果干 休闲零食 芒果干108g/袋",
+      "descript": "这是蜜饯",
+      "price": 16.90,
+      "stock": 100,
+      "sold": 22,
+      "gtid": 1,
+      "bid": 1,
+      "img": {
+        "iid": 4,
+        "main": "img/snacks/1004.png",
+        "img1": "img/snacks/1004_1.png",
+        "img2": "img/snacks/1004_2.png",
+        "img3": "img/snacks/1004_3.png"
+      }
+    },
+    {
+      "gid": 5,
+      "name": "三只松鼠肉干肉脯零食特产小吃麻辣卤味牛肉熟食孜香牛肚120g/袋",
+      "descript": "这是果脯",
+      "price": 36.90,
+      "stock": 100,
+      "sold": 22,
+      "gtid": 1,
+      "bid": 1,
+      "img": {
+        "iid": 5,
+        "main": "img/snacks/1005.png",
+        "img1": "img/snacks/1005_1.png",
+        "img2": "img/snacks/1005_2.png",
+        "img3": "img/snacks/1005_3.png"
+      }
+    },
+    {
+      "gid": 6,
+      "name": "好时之吻Kisses炫彩多口味巧克力 糖果零食婚庆婚庆喜糖散装500g",
+      "descript": "这是巧克力",
+      "price": 49.80,
+      "stock": 100,
+      "sold": 22,
+      "gtid": 1,
+      "bid": 1,
+      "img": {
+        "iid": 6,
+        "main": "img/snacks/1006.png",
+        "img1": "img/snacks/1006_1.png",
+        "img2": "img/snacks/1006_2.png",
+        "img3": "img/snacks/1006_3.png"
+      }
+    },
+    {
+      "gid": 7,
+      "name": " 德芙 Dove精心之选多种口味巧克力礼盒 糖果巧克力 礼品 圣诞节生日礼物280g",
+      "descript": "这是德芙",
+      "price": 121.00,
+      "stock": 100,
+      "sold": 22,
+      "gtid": 1,
+      "bid": 1,
+      "img": {
+        "iid": 7,
+        "main": "img/snacks/1007.png",
+        "img1": "img/snacks/1007_1.png",
+        "img2": "img/snacks/1007_2.png",
+        "img3": "img/snacks/1007_3.png"
+      }
+    },
+    {
+      "gid": 8,
+      "name": " 益达（Extra）尊享护齿 新年年货年糖 56g*3瓶京东定制装（草本精华+冰柠+清新西柚）",
+      "descript": "这是你的益达",
+      "price": 25.50,
+      "stock": 100,
+      "sold": 22,
+      "gtid": 1,
+      "bid": 1,
+      "img": {
+        "iid": 8,
+        "main": "img/snacks/1008.png",
+        "img1": "img/snacks/1008_1.png",
+        "img2": "img/snacks/1008_2.png",
+        "img3": "img/snacks/1008_3.png"
+      }
+    },
+    {
+      "gid": 9,
+      "name": "《老人与海》",
+      "descript": "这是一本好书",
+      "price": 18.50,
+      "stock": 100,
+      "sold": 22,
+      "gtid": 2,
+      "bid": 1,
+      "img": {
+        "iid": 9,
+        "main": "img/book/1001.png",
+        "img1": "img/book/1001_1.png",
+        "img2": "img/book/1001_2.png",
+        "img3": "img/book/1001_3.png"
+      }
+    },
+    {
+      "gid": 10,
+      "name": "《我的天才女友》",
+      "descript": " 这是一本好书",
+      "price": 33.20,
+      "stock": 100,
+      "sold": 22,
+      "gtid": 2,
+      "bid": 1,
+      "img": {
+        "iid": 10,
+        "main": "img/book/1002.png",
+        "img1": "img/book/1002_1.png",
+        "img2": "img/book/1002_2.png",
+        "img3": "img/book/1002_3.png"
+      }
+    },
+    {
+      "gid": 11,
+      "name": "《亦恕与珂雪》",
+      "descript": " 这是一本好书",
+      "price": 21.40,
+      "stock": 100,
+      "sold": 22,
+      "gtid": 2,
+      "bid": 1,
+      "img": {
+        "iid": 11,
+        "main": "img/book/1003.png",
+        "img1": "img/book/1003_1.png",
+        "img2": "img/book/1003_2.png",
+        "img3": "img/book/1003_3.png"
+      }
+    },
+    {
+      "gid": 12,
+      "name": "《平凡的世界》",
+      "descript": " 这是一本好书",
+      "price": 39.80,
+      "stock": 100,
+      "sold": 22,
+      "gtid": 2,
+      "bid": 1,
+      "img": {
+        "iid": 12,
+        "main": "img/book/1004.png",
+        "img1": "img/book/1004_1.png",
+        "img2": "img/book/1004_2.png",
+        "img3": "img/book/1004_3.png"
+      }
+    },
+    {
+      "gid": 13,
+      "name": "《人性的弱点》",
+      "descript": "这是一本好书",
+      "price": 19.70,
+      "stock": 100,
+      "sold": 22,
+      "gtid": 2,
+      "bid": 1,
+      "img": {
+        "iid": 13,
+        "main": "img/book/1005.png",
+        "img1": "img/book/1005_1.png",
+        "img2": "img/book/1005_2.png",
+        "img3": "img/book/1005_3.png"
+      }
+    },
+    {
+      "gid": 14,
+      "name": "《告白》",
+      "descript": "这是一本好书",
+      "price": 25.40,
+      "stock": 100,
+      "sold": 22,
+      "gtid": 2,
+      "bid": 1,
+      "img": {
+        "iid": 14,
+        "main": "img/book/1006.png",
+        "img1": "img/book/1006_1.png",
+        "img2": "img/book/1006_2.png",
+        "img3": "img/book/1006_3.png"
+      }
+    },
+    {
+      "gid": 15,
+      "name": "《经济学原理》",
+      "descript": "这是一本好书",
+      "price": 54.00,
+      "stock": 100,
+      "sold": 22,
+      "gtid": 2,
+      "bid": 1,
+      "img": {
+        "iid": 15,
+        "main": "img/book/1007.png",
+        "img1": "img/book/1007_1.png",
+        "img2": "img/book/1007_2.png",
+        "img3": "img/book/1007_3.png"
+      }
+    },
+    {
+      "gid": 16,
+      "name": "《蔡康永的情商课》",
+      "descript": "这是一本好书",
+      "price": 31.50,
+      "stock": 100,
+      "sold": 22,
+      "gtid": 2,
+      "bid": 1,
+      "img": {
+        "iid": 16,
+        "main": "img/book/1008.png",
+        "img1": "img/book/1008_1.png",
+        "img2": "img/book/1008_2.png",
+        "img3": "img/book/1008_3.png"
+      }
+    },
+    {
+      "gid": 17,
+      "name": "《暗黑血统2》",
+      "descript": "好玩的游戏",
+      "price": 188.00,
+      "stock": 100,
+      "sold": 22,
+      "gtid": 3,
+      "bid": 1,
+      "img": {
+        "iid": 17,
+        "main": "img/game/1001.png",
+        "img1": "img/game/1001_1.png",
+        "img2": "img/game/1001_2.png",
+        "img3": "img/game/1001_3.png"
+      }
+    },
+    {
+      "gid": 18,
+      "name": "《生化危机7》",
+      "descript": "恐怖的游戏",
+      "price": 188.00,
+      "stock": 100,
+      "sold": 22,
+      "gtid": 3,
+      "bid": 1,
+      "img": {
+        "iid": 18,
+        "main": "img/game/1002.png",
+        "img1": "img/game/1002_1.png",
+        "img2": "img/game/1002_2.png",
+        "img3": "img/game/1002_3.png"
+      }
+    },
+    {
+      "gid": 19,
+      "name": "《上古卷轴5》",
+      "descript": "黑暗的游戏",
+      "price": 188.00,
+      "stock": 100,
+      "sold": 22,
+      "gtid": 3,
+      "bid": 1,
+      "img": {
+        "iid": 19,
+        "main": "img/game/1003.png",
+        "img1": "img/game/1003_1.png",
+        "img2": "img/game/1003_2.png",
+        "img3": "img/game/1003_3.png"
+      }
+    },
+    {
+      "gid": 20,
+      "name": "《刺客信条：奥德赛》",
+      "descript": "角色扮演的游戏",
+      "price": 188.00,
+      "stock": 100,
+      "sold": 22,
+      "gtid": 3,
+      "bid": 1,
+      "img": {
+        "iid": 20,
+        "main": "img/game/1004.png",
+        "img1": "img/game/1004_1.png",
+        "img2": "img/game/1004_2.png",
+        "img3": "img/game/1004_3.png"
+      }
+    },
+    {
+      "gid": 21,
+      "name": "《古墓丽影：暗影》",
+      "descript": "冒险的游戏",
+      "price": 188.00,
+      "stock": 100,
+      "sold": 22,
+      "gtid": 3,
+      "bid": 1,
+      "img": {
+        "iid": 21,
+        "main": "img/game/1005.png",
+        "img1": "img/game/1005_1.png",
+        "img2": "img/game/1005_2.png",
+        "img3": "img/game/1005_3.png"
+      }
+    },
+    {
+      "gid": 22,
+      "name": "《绝地求生：大逃杀》",
+      "descript": "多人游戏",
+      "price": 188.00,
+      "stock": 100,
+      "sold": 22,
+      "gtid": 3,
+      "bid": 1,
+      "img": {
+        "iid": 22,
+        "main": "img/game/1006.png",
+        "img1": "img/game/1006_1.png",
+        "img2": "img/game/1006_2.png",
+        "img3": "img/game/1006_3.png"
+      }
+    },
+    {
+      "gid": 23,
+      "name": "《求生之路1》",
+      "descript": "旧游戏",
+      "price": 188.00,
+      "stock": 100,
+      "sold": 22,
+      "gtid": 3,
+      "bid": 1,
+      "img": {
+        "iid": 23,
+        "main": "img/game/1007.png",
+        "img1": "img/game/1007_1.png",
+        "img2": "img/game/1007_2.png",
+        "img3": "img/game/1007_3.png"
+      }
+    },
+    {
+      "gid": 24,
+      "name": "《尼尔：机械纪元》",
+      "descript": "治愈的游戏",
+      "price": 188.00,
+      "stock": 100,
+      "sold": 22,
+      "gtid": 3,
+      "bid": 1,
+      "img": {
+        "iid": 24,
+        "main": "img/game/1008.png",
+        "img1": "img/game/1008_1.png",
+        "img2": "img/game/1008_2.png",
+        "img3": "img/game/1008_3.png"
+      }
+    }
+  ],
+  "address":[
+    {
+      "receiveName":"阮尧岚",
+      "receivePone":"13556512184",
+      "address":"这次阿斯弗十点十分低级"
+    },
+    {
+      "receiveName":"吴楚欣",
+      "receivePone":"13556512184",
+      "address":"这次阿斯弗十点十分低级"
+    },
+    {
+      "receiveName":"zhangshanrui",
+      "receivePone":"1111111",
+      "address":"这次阿斯弗十点十分低级"
+    },
+    {
+      "receiveName":"songyiyun",
+      "receivePone":"1111111",
+      "address":"这次阿斯弗十点十分低级"
+    }
+  ]
+}
